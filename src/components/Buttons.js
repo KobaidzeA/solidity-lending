@@ -1,12 +1,10 @@
-// 0xd413dcae6748e2fd4bad7166DD69f7912D5A6A11
-import {NavLink} from "react-router-dom"
 import Yeet from "./Yeet"
 import {web3} from "./SmartContract";
 import { myContract } from "./SmartContract";
 import { useNavigate } from "react-router-dom";
+import { accounts } from "./SmartContract";
 
 
-const accounts = await web3.eth.getAccounts();
 
 
 const Buttons = () => {

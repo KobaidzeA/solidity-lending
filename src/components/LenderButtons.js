@@ -1,6 +1,6 @@
 import { myContract } from "./SmartContract";
 import { web3 } from "./SmartContract";
-const accounts = await web3.eth.getAccounts();
+import { accounts } from "./SmartContract";
 
 async function closeAcc() {
     try {

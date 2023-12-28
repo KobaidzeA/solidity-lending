@@ -1,9 +1,15 @@
 import { myContract } from "./SmartContract";
 import { web3 } from "./SmartContract";
-const accounts = await web3.eth.getAccounts();
+import { accounts } from "./SmartContract";
+var lenderData = [];
+var borrowerData = [];
 const converter = 100;
-const lenderData = await myContract.methods.lenderArrJS().call();
-const borrowerData = await myContract.methods.borrowerArrJS().call();
+try{
+     lenderData = await myContract.methods.lenderArrJS().call();
+     borrowerData = await myContract.methods.borrowerArrJS().call();
+} catch(error) {
+    console.log(error);
+}
 async function closeAcc() {
     try {
         await myContract.methods.closeBorrower(100).send({
