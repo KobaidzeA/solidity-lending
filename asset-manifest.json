@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/solidity-lending/static/css/main.d1300811.css",
-    "main.js": "/solidity-lending/static/js/main.77bc7dd9.js",
+    "main.js": "/solidity-lending/static/js/main.d379d712.js",
     "index.html": "/solidity-lending/index.html",
     "main.d1300811.css.map": "/solidity-lending/static/css/main.d1300811.css.map",
-    "main.77bc7dd9.js.map": "/solidity-lending/static/js/main.77bc7dd9.js.map"
+    "main.d379d712.js.map": "/solidity-lending/static/js/main.d379d712.js.map"
   },
   "entrypoints": [
     "static/css/main.d1300811.css",
-    "static/js/main.77bc7dd9.js"
+    "static/js/main.d379d712.js"
   ]
 }
