@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/solidity-lending/static/css/main.d1300811.css",
-    "main.js": "/solidity-lending/static/js/main.77bc7dd9.js",
-    "index.html": "/solidity-lending/index.html",
-    "main.d1300811.css.map": "/solidity-lending/static/css/main.d1300811.css.map",
-    "main.77bc7dd9.js.map": "/solidity-lending/static/js/main.77bc7dd9.js.map"
+    "main.css": "/static/css/main.d1300811.css",
+    "main.js": "/static/js/main.77bc7dd9.js",
+    "index.html": "/index.html",
+    "main.d1300811.css.map": "/static/css/main.d1300811.css.map",
+    "main.77bc7dd9.js.map": "/static/js/main.77bc7dd9.js.map"
   },
   "entrypoints": [
     "static/css/main.d1300811.css",
