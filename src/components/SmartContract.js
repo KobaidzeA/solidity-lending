@@ -1,7 +1,7 @@
 import Web3 from 'web3'
 import getABI from './ABI';
 
-var web3, myContract accounts;
+var web3, myContract ,accounts;
 
 try {
      web3 = new Web3(window.ethereum);
