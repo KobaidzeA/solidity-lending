@@ -11,6 +11,6 @@ import App from "./App.js"
 //     );  
 
     const root = ReactDom.createRoot(document.getElementById("root"));
-    root.render( <BrowserRouter>
+    root.render( <BrowserRouter basename={process.env.PUBLIC_URL}>
         <App/>
     </BrowserRouter>);
