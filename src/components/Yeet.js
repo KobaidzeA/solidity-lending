@@ -1,9 +1,12 @@
 import { useNavigate } from 'react-router-dom';
-import { web3 } from './SmartContract';
 import { myContract } from './SmartContract';
+import { accounts } from './SmartContract';
+import { web3 } from './SmartContract';
 
-const accounts = await web3.eth.getAccounts();
+//const accounts = await web3.eth.getAccounts();
+
 export default  function Yeet() {
+   console.log(accounts);
    const navigate = useNavigate();
    async function Destination() {
    var destination;
