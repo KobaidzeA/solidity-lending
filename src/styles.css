@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(218deg, rgba(2,0,36,1) 0%, rgba(9,110,96,1) 85%, rgba(0,212,255,1) 100%);
+}
+
+.linksNav {
+    display: flex;
+    flex-direction: row;
+    background-color: #313552;
+}
+
+.linksNav img {
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+.linksNav  li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 5px;
+    width: 60px;
+    font-size: 18px;
+    
+}
+
+.welcomeMessage {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    text-align: center;
+    width: 1200px;
+    font-size: 50px;
+}
+.buttonContainer {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.greetButton {
+    padding: 16px 40px;
+    border: none;
+    font-size: 19px;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 50px;
+    width: 270px;
+    border-radius: 12px;
+    background-color: #222222;
+    color: white;
+    box-shadow: 3px 1px #008170;
+    cursor: pointer;
+}
+
+
+.CustomLink {
+    text-decoration: none;
+    color: white;
+    
+}
+.borrowSpan {
+    color: #B87333;
+}
+.lenderSpan {
+    color: #50C878
+}
+.metamaskSpan {
+    color: #ED7117
+}
+.navLink {
+    text-decoration: none;
+    color: #53dac7;
+}
+
+.aboutHeader{
+    text-align: center;
+    font-size: 60px;
+    color: rgba(255, 255, 255, 0.75);
+}
+.aboutParagraph {
+    margin: auto;
+    margin-top: 100px;
+    justify-content: center;
+    font-size: 37px;
+    font-weight: 500;
+    background-color:rgba(255, 255, 255, 0.35);
+    border-radius: 40px;
+    width: 1400px;
+    padding: 35px;
+}
+.contactParagraph {
+    margin: auto;
+    margin-top: 100px;
+    justify-content: center;
+    font-size: 37px;
+    font-weight: 500;
+    background-color:rgba(255, 255, 255, 0.35);
+    border-radius: 40px;
+    width: 1500px;
+    padding: 35px;
+}
+
+.greetText {
+    font-size: 47px;
+    color: white;
+    text-align: center;
+}
+
+.dataDiv {
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 50%;
+    height: 50vh;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: inline-blocks;
+
+}
+
+.dataDiv h3{
+    text-align: center;
+    font-size: 33px;
+}
+
+.dataDiv li {
+    margin-bottom: 70px;
+    font-size: 23px;
+    
+}
+
+.dataSpan {
+    color: #ff4f00;
+}
+
+.functionDiv{
+    margin:auto;
+}
+
+.borrowFlex{
+    display: flex;
+}
+.closeSpan {
+    color:#ff1b2d;
+}
+.loanSpan{
+    color: #ffd900;
+}
+.repaySpan{
+    color: #86dc3d;
+}
+.functionButton {
+    padding: 25px 40px;
+    border: none;
+    font-size: 27px;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 50px;
+    width: 270px;
+    border-radius: 12px;
+    background-color: #222222;
+    color: white;
+    box-shadow: 3px 1px #008170;
+    cursor: pointer;
+}
+
